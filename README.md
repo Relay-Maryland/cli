@@ -2,11 +2,20 @@
 
 Command line tool for adding calendar entries to relaymaryland.com.
 
+## System requirements
+
+[Node.js](https://nodejs.org)
+
+```sh
+# Install latest Node.js (comes bundled with npm, Node package manager)
+brew install node
+```
+
 ## Install
 
 ```sh
-# Clone the repo
-git clone git@github.com:Relay-Maryland/relay-cli.git
+# Clone the repo, rename it relay-cli
+git clone git@github.com:Relay-Maryland/cli.git relay-cli
 
 # Change into the relay-cli directory
 cd relay-cli
