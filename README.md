@@ -20,6 +20,9 @@ git clone git@github.com:Relay-Maryland/cli.git relay-cli
 # Change into the relay-cli directory
 cd relay-cli
 
+# Install the project dependencies
+npm install
+
 # Create a symlink from this project root to run relay-cli from anywhere in the terminal
 npm link
 ```
